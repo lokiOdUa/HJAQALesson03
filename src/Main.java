@@ -6,22 +6,27 @@ public class Main {
         System.out.println("Java version: " + System.getProperty("java.version"));
         System.out.println("Java home: " + System.getProperty("java.home"));
 
-//        String myString = "StringLiteral";  // String literal
-//        int myInt = 100500;                 // Integer literal
-//        Integer myInteger = myInt;          // int -> Integer automagically
-////        Float myFloat = myInteger;        // Integer -> Float does not happen
-//
-////        System.out.printf("My string is %d, my int is %d, and my integer is %d\n\r",
-////                myString, myInt, myInteger);
-////        System.out.printf("My string is %d, my int is %f, and my integer is %f\n\r",
-////                myString, myInt, myInteger);
-//        System.out.printf("My string is %s, my int is %d, and my integer is %d%s",
-//                myString, myInt, myInteger, System.lineSeparator());
-////        myInt = 2147483623; // Integer.MAX_VALUE - 25;
-////        var myNextInt = myInt;
-////        for (int c = 0; c < 50; c++) {
-////            System.out.println(++myInt + " :: " + myNextInt++);
-////        }
+        String myString = "StringLiteral";  // String literal
+        int myInt = 100500;                 // Integer literal
+        Integer myInteger = myInt;          // int -> Integer automagically
+//        Long myLong = 12345;
+        Long myLong = 12345L;
+//        Float myFloat = myInteger;        // Integer -> Float does not happen
+
+//        System.out.printf("My string is %d, my int is %d, and my integer is %d\n\r",
+//                myString, myInt, myInteger);
+//        System.out.printf("My string is %d, my int is %f, and my integer is %f\n\r",
+//                myString, myInt, myInteger);
+        System.out.printf("My string is %s, my int is %d, and my integer is %d%s",
+                myString, myInt, myInteger, System.lineSeparator());
+        System.out.println("Length of my string is " + myString.length());
+//        myLong.
+//        myInteger.floatValue()
+//        myInt = 2147483623; // Integer.MAX_VALUE - 25;
+//        var myNextInt = myInt;
+//        for (int c = 0; c < 50; c++) {
+//            System.out.println(++myInt + " :: " + myNextInt++);
+//        }
 
 //// 		System.out.println(true > false);
 //// 		System.out.println(true + 8);
